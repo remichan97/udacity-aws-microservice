@@ -1,0 +1,9 @@
+export POSTGRES_USERNAME=mirai
+export POSTGRES_PASSWORD=Remichan-udagram
+export POSTGRES_HOST=https://mirai-project3.cnkm0gomqd9m.us-east-1.rds.amazonaws.com
+export POSTGRES_DB=udagram
+export AWS_BUCKET=mirai-project3
+export AWS_REGION=us-east-1
+export AWS_PROFILE=default
+export JWT_SECRET=testing
+export URL=http://localhost:8100
