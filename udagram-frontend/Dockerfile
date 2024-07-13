@@ -9,7 +9,7 @@ ENV NODE_OPTIONS=--openssl-legacy-provider
 RUN npm i -f
 ## Bundle app source
 COPY . .
-RUN ionic build
+RUN ionic build --prod
 ### Run 
 FROM nginx:alpine
 #COPY www /usr/share/nginx/html
