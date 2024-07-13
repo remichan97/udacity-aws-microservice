@@ -16,7 +16,7 @@ before_install:
 
 install: 
   - docker -v && docker compose version
-  - docker compose -f ./docker-compose-build.yaml build --parallel
+  - docker-compose -f ./docker-compose-build.yaml build --parallel
   - docker tag reverseproxy remichan97/reverseproxy
   - docker tag udagram-api-feed remichan97/udagram-api-feed
   - docker tag udagram-api-user remichan97/udagram-api-user
